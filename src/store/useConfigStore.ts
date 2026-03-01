@@ -1,5 +1,7 @@
 import { create } from 'zustand'
-import type { PergolaConfig, WoodFinish } from '../types'
+import type { PergolaConfig, WoodFinish, RoofShape, RoofType, WallType } from '../types'
+
+export type { RoofShape, RoofType, WallType, WoodFinish }
 
 interface ConfigStore extends PergolaConfig {
   set: <K extends keyof PergolaConfig>(key: K, value: PergolaConfig[K]) => void
