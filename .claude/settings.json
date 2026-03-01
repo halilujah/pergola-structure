@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc --noEmit)",
+      "Bash(npm run build)",
+      "Bash(timeout 8 npx vite --host)"
+    ]
+  }
+}
